@@ -1,24 +1,10 @@
-# Module 10: D3 Reusability
+# D3 Reusability
 
-## Overview
 In this module, we'll introduce a pattern for building reusable components with D3. We'll move away from writing code for a particular dataset, towards writing generalizable software that can be repurposed across projects (and people!). Building reusable components will allow you to reuse your code, integrate your visualizations more easily into larger development projects, and create useful software for the open-source community.
 
 More than anything else, this module is a supplement to Mike Bostock's excellent article [Towards Reusable Charts](https://bost.ocks.org/mike/chart/). The purpose is to more slowly introduce the related foundational JavaScript concepts, and provide a detailed description and example of the implementation.
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
 
-- [Resources](#resources)
-- [Functions are Objects](#functions-are-objects)
-- [Getter / Setter Methods](#getter--setter-methods)
-- [Method Chaining](#method-chaining)
-- [Closure](#closure)
-- [Reusable Charts](#reusable-charts)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Resources
-Here are a few resources to help you better understand reusability patterns:
+Helpful links:
 
 - [Towards Reusable Charts](https://bost.ocks.org/mike/chart/) _(Bostock)_
 - [JavaScript Closures](http://jibbering.com/faq/notes/closures/)
