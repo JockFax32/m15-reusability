@@ -121,7 +121,7 @@ person.ageMethod(22) // set the age, return the object
 
 This is a good start, but there are a few unpleasant features to our approach. Most prominently, this pattern requires storing multiple **properties** on our **object** that refer to the same concept (i.e., `age` and `ageMethod`). This is confusing for implementation purposes, and doesn't capture the full strength of getter/setter approach (i.e., who cares if the method can _get_ the current value if it's exposed as another property?). To address this challenge, we'll leverage the **closure** pattern to encapsulate variables.
 
-For some quick practice with getter/setter methods and method chaining, see [exercise-1](exercise-1).
+For some quick practice with getter/setter methods and method chaining, see [exercise-1](http://github.com/info474-s17/m15-reusability/tree/master/exercise-1).
 
 ## Closure
 One of the challenges most people encounter when starting to use JavaScript is determining the **scope** of variables. Invariably, you unintentionally define an element in the wrong scope and can't access it when you want to:
@@ -313,7 +313,7 @@ myChart.width(1000);
 chartWrapper.call(myChart);
 ```
 
-For some initial practice working with reusable charts, see [exercise-2](exercise-2).
+For some initial practice working with reusable charts, see [exercise-2](http://github.com/info474-s17/m15-reusability/tree/master/exercise-2).
 
 Here's a [complete working example of a reusable chart](http://bl.ocks.org/curran/66d926fe73211fd650ec).
 
